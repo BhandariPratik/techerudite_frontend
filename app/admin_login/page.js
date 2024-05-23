@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Joi from 'joi';
 import Link from "next/link";
 
-const admin = (() => {
+const Admin = (() => {
     const [data, setData] = useState({
         email: '',
         password: '',
@@ -100,4 +100,4 @@ const admin = (() => {
     );
 });
 
-export default admin;
+export default Admin;

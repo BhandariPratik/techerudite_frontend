@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Joi from "joi";
 import Link from "next/link";
 
-const admin = (() => {
+const RegAdmin = (() => {
 const router = useRouter()
     const [userData, setUserData] = useState({
         first_name: '',
@@ -151,4 +151,4 @@ const router = useRouter()
     )
 })
 
-export default admin;
+export default RegAdmin;
